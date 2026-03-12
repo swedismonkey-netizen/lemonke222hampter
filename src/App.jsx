@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import gamesData from './data/games.json';
 
 export default function App() {
+  console.log('App Component Rendering');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedGame, setSelectedGame] = useState(null);
